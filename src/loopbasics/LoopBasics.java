@@ -284,7 +284,7 @@ public class LoopBasics {
 
         // What if we want to count _down_ from 100 to 1? No problem!
 
-        for (int n = 100; n > 0; n--) {
+        for (int n = 100; n >= 0; n--) {
             System.out.println(n);
         }
         System.out.println("Done!");
